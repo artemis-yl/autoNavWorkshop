@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000468] (tutorial) JobQueued: {'identifier': 'tutorial', 'dependencies': OrderedDict()}
+[0.000621] (tutorial) JobStarted: {'identifier': 'tutorial'}
+[0.012396] (tutorial) JobProgress: {'identifier': 'tutorial', 'progress': 'cmake'}
+[0.012989] (tutorial) JobProgress: {'identifier': 'tutorial', 'progress': 'build'}
+[0.013382] (tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial', '--', '-j6', '-l6'], 'cwd': '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'autonav', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/autonav', 'OLDPWD': '/home/autonav/Documents/autoNavWorkshop/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2075', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cf5b74f0f9cdd4730c70381f6acaefb4', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'autonav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'autonav', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/autonav-ros2-jazzy:@/tmp/.ICE-unix/2075,unix/autonav-ros2-jazzy:/tmp/.ICE-unix/2075', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9d024ffd_aeef_4c5c_a76b_ddf39332752e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IYJVW3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.174', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cf5b74f0f9cdd4730c70381f6acaefb4', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.045469] (tutorial) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100084] (-) TimerEvent: {}
+[0.200376] (-) TimerEvent: {}
+[0.213149] (tutorial) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.249863] (tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.258871] (tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.270880] (tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.284271] (tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300615] (-) TimerEvent: {}
+[0.345833] (tutorial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.348614] (tutorial) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.401126] (-) TimerEvent: {}
+[0.415244] (tutorial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.486255] (tutorial) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.501451] (-) TimerEvent: {}
+[0.565159] (tutorial) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.577028] (tutorial) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.580870] (tutorial) StdoutLine: {'line': b'-- Build files have been written to: /home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial\n'}
+[0.601805] (-) TimerEvent: {}
+[0.620085] (tutorial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[0.620284] (tutorial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.702166] (-) TimerEvent: {}
+[0.802920] (-) TimerEvent: {}
+[0.903519] (-) TimerEvent: {}
+[1.003919] (-) TimerEvent: {}
+[1.105888] (-) TimerEvent: {}
+[1.206469] (-) TimerEvent: {}
+[1.306814] (-) TimerEvent: {}
+[1.407652] (-) TimerEvent: {}
+[1.508501] (-) TimerEvent: {}
+[1.609114] (-) TimerEvent: {}
+[1.710140] (-) TimerEvent: {}
+[1.810685] (-) TimerEvent: {}
+[1.911038] (-) TimerEvent: {}
+[2.012556] (-) TimerEvent: {}
+[2.113046] (-) TimerEvent: {}
+[2.214205] (-) TimerEvent: {}
+[2.314545] (-) TimerEvent: {}
+[2.414919] (-) TimerEvent: {}
+[2.515731] (-) TimerEvent: {}
+[2.616105] (-) TimerEvent: {}
+[2.716916] (-) TimerEvent: {}
+[2.817669] (-) TimerEvent: {}
+[2.918565] (-) TimerEvent: {}
+[3.019328] (-) TimerEvent: {}
+[3.119746] (-) TimerEvent: {}
+[3.220481] (-) TimerEvent: {}
+[3.321284] (-) TimerEvent: {}
+[3.421720] (-) TimerEvent: {}
+[3.522574] (-) TimerEvent: {}
+[3.623191] (-) TimerEvent: {}
+[3.723786] (-) TimerEvent: {}
+[3.824296] (-) TimerEvent: {}
+[3.924627] (-) TimerEvent: {}
+[4.025126] (-) TimerEvent: {}
+[4.125680] (-) TimerEvent: {}
+[4.227812] (-) TimerEvent: {}
+[4.329451] (-) TimerEvent: {}
+[4.429863] (-) TimerEvent: {}
+[4.530312] (-) TimerEvent: {}
+[4.631472] (-) TimerEvent: {}
+[4.732001] (-) TimerEvent: {}
+[4.834709] (-) TimerEvent: {}
+[4.935201] (-) TimerEvent: {}
+[5.035764] (-) TimerEvent: {}
+[5.136964] (-) TimerEvent: {}
+[5.237401] (-) TimerEvent: {}
+[5.338520] (-) TimerEvent: {}
+[5.438877] (-) TimerEvent: {}
+[5.539371] (-) TimerEvent: {}
+[5.640210] (-) TimerEvent: {}
+[5.663772] (tutorial) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.740346] (-) TimerEvent: {}
+[5.840808] (-) TimerEvent: {}
+[5.875976] (tutorial) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.941362] (-) TimerEvent: {}
+[6.042010] (-) TimerEvent: {}
+[6.142329] (-) TimerEvent: {}
+[6.242700] (-) TimerEvent: {}
+[6.343491] (-) TimerEvent: {}
+[6.443835] (-) TimerEvent: {}
+[6.544726] (-) TimerEvent: {}
+[6.645509] (-) TimerEvent: {}
+[6.746273] (-) TimerEvent: {}
+[6.846584] (-) TimerEvent: {}
+[6.947039] (-) TimerEvent: {}
+[7.047740] (-) TimerEvent: {}
+[7.149595] (-) TimerEvent: {}
+[7.249914] (-) TimerEvent: {}
+[7.350304] (-) TimerEvent: {}
+[7.451066] (-) TimerEvent: {}
+[7.551940] (-) TimerEvent: {}
+[7.652675] (-) TimerEvent: {}
+[7.753553] (-) TimerEvent: {}
+[7.854332] (-) TimerEvent: {}
+[7.954649] (-) TimerEvent: {}
+[8.055325] (-) TimerEvent: {}
+[8.155976] (-) TimerEvent: {}
+[8.256609] (-) TimerEvent: {}
+[8.357120] (-) TimerEvent: {}
+[8.457811] (-) TimerEvent: {}
+[8.539781] (tutorial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.558115] (-) TimerEvent: {}
+[8.658986] (-) TimerEvent: {}
+[8.728531] (tutorial) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.741318] (tutorial) CommandEnded: {'returncode': 0}
+[8.742574] (tutorial) JobProgress: {'identifier': 'tutorial', 'progress': 'install'}
+[8.751338] (tutorial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial'], 'cwd': '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'autonav', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/autonav', 'OLDPWD': '/home/autonav/Documents/autoNavWorkshop/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2075', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cf5b74f0f9cdd4730c70381f6acaefb4', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'autonav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'autonav', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/autonav-ros2-jazzy:@/tmp/.ICE-unix/2075,unix/autonav-ros2-jazzy:/tmp/.ICE-unix/2075', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9d024ffd_aeef_4c5c_a76b_ddf39332752e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IYJVW3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.174', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cf5b74f0f9cdd4730c70381f6acaefb4', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.758599] (tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.758926] (tutorial) StdoutLine: {'line': b'-- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/lib/tutorial/talker\n'}
+[8.759054] (-) TimerEvent: {}
+[8.759719] (tutorial) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/lib/tutorial/talker" to ""\n'}
+[8.759874] (tutorial) StdoutLine: {'line': b'-- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/lib/tutorial/listener\n'}
+[8.762833] (tutorial) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/lib/tutorial/listener" to ""\n'}
+[8.763068] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/ament_index/resource_index/package_run_dependencies/tutorial\n'}
+[8.763200] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/ament_index/resource_index/parent_prefix_path/tutorial\n'}
+[8.763397] (tutorial) StdoutLine: {'line': b'-- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/environment/ament_prefix_path.sh\n'}
+[8.763647] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/environment/ament_prefix_path.dsv\n'}
+[8.763779] (tutorial) StdoutLine: {'line': b'-- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/environment/path.sh\n'}
+[8.764106] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/environment/path.dsv\n'}
+[8.764209] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/local_setup.bash\n'}
+[8.764250] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/local_setup.sh\n'}
+[8.764300] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/local_setup.zsh\n'}
+[8.764333] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/local_setup.dsv\n'}
+[8.764372] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/package.dsv\n'}
+[8.764408] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/ament_index/resource_index/packages/tutorial\n'}
+[8.764456] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/cmake/tutorialConfig.cmake\n'}
+[8.764487] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/cmake/tutorialConfig-version.cmake\n'}
+[8.764517] (tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/package.xml\n'}
+[8.765588] (tutorial) CommandEnded: {'returncode': 0}
+[8.787302] (tutorial) JobEnded: {'identifier': 'tutorial', 'rc': 0}
+[8.788824] (-) EventReactorShutdown: {}
