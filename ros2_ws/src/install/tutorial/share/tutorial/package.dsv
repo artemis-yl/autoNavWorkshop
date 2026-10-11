@@ -1,0 +1,6 @@
+source;share/tutorial/hook/cmake_prefix_path.dsv
+source;share/tutorial/hook/cmake_prefix_path.sh
+source;share/tutorial/local_setup.bash
+source;share/tutorial/local_setup.dsv
+source;share/tutorial/local_setup.sh
+source;share/tutorial/local_setup.zsh

@@ -1,0 +1,15 @@
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/ament_index/resource_index/package_run_dependencies/tutorial
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/ament_index/resource_index/parent_prefix_path/tutorial
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/environment/ament_prefix_path.sh
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/environment/ament_prefix_path.dsv
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/environment/path.sh
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/environment/path.dsv
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/local_setup.bash
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/local_setup.sh
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/local_setup.zsh
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/local_setup.dsv
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/package.dsv
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/ament_index/resource_index/packages/tutorial
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/cmake/tutorialConfig.cmake
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/cmake/tutorialConfig-version.cmake
+/home/autonav/Documents/autoNavWorkshop/ros2_ws/src/install/tutorial/share/tutorial/package.xml
