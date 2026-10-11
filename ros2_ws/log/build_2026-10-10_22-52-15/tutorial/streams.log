@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/autonav/Documents/autoNavWorkshop/ros2_ws/src/tutorial -DCMAKE_INSTALL_PREFIX=/home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial
+[0.045s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.095s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.162s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.231s] -- Detecting CXX compile features - done
+[0.233s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.331s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.407s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.478s] -- Added test 'lint_cmake' to check CMake code style
+[0.479s] -- Added test 'xmllint' to check XML markup files
+[0.480s] -- Configuring done (0.5s)
+[0.482s] -- Generating done (0.0s)
+[0.483s] -- Build files have been written to: /home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial
+[0.486s] Invoked command in '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/autonav/Documents/autoNavWorkshop/ros2_ws/src/tutorial -DCMAKE_INSTALL_PREFIX=/home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial
+[0.487s] Invoking command in '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial -- -j6 -l6
+[0.515s] Invoked command in '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial -- -j6 -l6
+[0.522s] Invoking command in '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial
+[0.529s] -- Install configuration: ""
+[0.529s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/ament_index/resource_index/package_run_dependencies/tutorial
+[0.529s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/ament_index/resource_index/parent_prefix_path/tutorial
+[0.529s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/environment/ament_prefix_path.sh
+[0.529s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/environment/ament_prefix_path.dsv
+[0.530s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/environment/path.sh
+[0.530s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/environment/path.dsv
+[0.530s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/local_setup.bash
+[0.530s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/local_setup.sh
+[0.530s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/local_setup.zsh
+[0.530s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/local_setup.dsv
+[0.530s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/package.dsv
+[0.531s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/ament_index/resource_index/packages/tutorial
+[0.531s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/cmake/tutorialConfig.cmake
+[0.531s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/cmake/tutorialConfig-version.cmake
+[0.531s] -- Installing: /home/autonav/Documents/autoNavWorkshop/ros2_ws/install/tutorial/share/tutorial/package.xml
+[0.532s] Invoked command in '/home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/autonav/Documents/autoNavWorkshop/ros2_ws/build/tutorial
